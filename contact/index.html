@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../style.css" />
+    <title>todasra</title>
+  </head>
+  <body>
+    <!-- navbar -->
+    <div class="navbar" style="position: fixed; top: 0; width: 100%;">
+      <span>TODASRA</span>
+      <ul class="nav-list">
+        <li><a href="../Home/index.html">Home</a></li>
+        <li><a href="../Toko/index.html">Toko</a></li>
+        <li><a href="../about/index.html">About</a></li>
+        <li><a href="../cek out/index.html">Cek</a></li>
+        <li><a href="../contact/index.html">Contact</output></a></li>
+      </ul>
+    </div>
+
+  <div class="idr" style="display: flex; flex-direction: row; justify-content: center; align-items: center; width: 100%; height: 100dvh;">
+    
+    <div class="content">    
+
+      <div class="container">
+        <h2>Hubungi Kami</h2>
+        <form action="mailto:email@domain.com" method="post" enctype="text/plain">
+            <div class="form-group">
+                <label for="name">Nama:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="text" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Pesan:</label>
+                <textarea id="message" name="message" required></textarea>
+            </div>
+            <input type="submit" value="Kirim Pesan" onclick="alert('Terima Kasih Telah Hubungi Tim Kami')">
+        </form>
+    </div>
+    </div>
+  </div>
+</body>
+</html>
